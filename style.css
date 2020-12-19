@@ -24,7 +24,7 @@ a:link:hover {
   cursor: pointer;
   cursor: hand;
   color: #f6ee31;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Actor", Times, serif;
 }
 input[type=submit], button {
   cursor: pointer;
@@ -32,7 +32,7 @@ input[type=submit], button {
   background-color: white;
   border-color: light grey;
   color: #f6ee31;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Actor", Times, serif;
 }
 @media(max-width: 900px) {
   html {
@@ -87,4 +87,8 @@ p {
   font-size: 4vw;
   text-align: center;
 }
-
+a {
+  font-size: 16px;
+  font-size: 4vw;
+  text-align: center;
+}
