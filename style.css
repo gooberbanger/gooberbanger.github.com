@@ -4,16 +4,16 @@ html {
   min-height: 100%;
   margin: 0 auto;
   font-size: 16px;
-  background-color: #ffe;
-color: maroon;
-font-family: "Times New Roman", Times, serif;
+  background-color: #000000;
+  color: #f6ee31;
+  font-family: "Courier New", Times, serif;
 }
 body {
   min-height: 90%;
   line-height: 1.75;
-  background-color: #f0e0d6;
-  color: maroon;
-  font-family: "Times New Roman", Times, serif;
+  background-color: #5920de;
+  color: #f6ee31;
+  font-family: "Courier New", Times, serif;
 }
 a:link:hover {
   -webkit-transition: all 0.3s ease;
@@ -22,7 +22,7 @@ a:link:hover {
   text-decoration: underline;
   cursor: pointer;
   cursor: hand;
-color: maroon;
+color: #f6ee31;
 font-family: "Times New Roman", Times, serif;
 }
 input[type=submit], button {
@@ -30,7 +30,7 @@ input[type=submit], button {
   cursor: hand;
 background-color: white;
 border-color: light grey;
-color: maroon;
+color: #f6ee31;
 font-family: "Times New Roman", Times, serif;
 
 }
@@ -38,7 +38,7 @@ font-family: "Times New Roman", Times, serif;
   html {
       font-size: 14px !important;
       width: 80% !important;
-  color: maroon;
+  color: #f6ee31;
   font-family: "Times New Roman", Times, serif;
   }
 }
@@ -46,7 +46,7 @@ font-family: "Times New Roman", Times, serif;
   html {
       font-size: 12px !important;
       width: 90% !important;
-  color: maroon;
+  color: #f6ee31;
   font-family: "Times New Roman", Times, serif;
   }
 }
@@ -54,7 +54,7 @@ font-family: "Times New Roman", Times, serif;
   html {
       font-size: 12px !important;
       width: 100% !important;
-  color: maroon;
+  color: #f6ee31;
   font-family: "Times New Roman", Times, serif;
   }
 }
