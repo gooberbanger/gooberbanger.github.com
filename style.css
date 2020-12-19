@@ -1,9 +1,9 @@
 html {
-  width: 60%;
+  width: 80%;
   height: 100%;
   min-height: 100%;
   margin: 0 auto;
-  font-size: 16px;
+  /* font-size: 1em; */
   background-color: #000000;
   color: #f6ee31;
   font-family: "Courier New", Times, serif;
@@ -22,46 +22,67 @@ a:link:hover {
   text-decoration: underline;
   cursor: pointer;
   cursor: hand;
-color: #f6ee31;
-font-family: "Times New Roman", Times, serif;
+  color: #f6ee31;
+  font-family: "Times New Roman", Times, serif;
 }
 input[type=submit], button {
   cursor: pointer;
   cursor: hand;
-background-color: white;
-border-color: light grey;
-color: #f6ee31;
-font-family: "Times New Roman", Times, serif;
-
+  background-color: white;
+  border-color: light grey;
+  color: #f6ee31;
+  font-family: "Times New Roman", Times, serif;
 }
 @media(max-width: 900px) {
   html {
-      font-size: 14px !important;
-      width: 80% !important;
-  color: #f6ee31;
-  font-family: "Times New Roman", Times, serif;
+    font-size: 14px !important;
+    width: 80% !important;
+    color: #f6ee31;
+    font-family: "Times New Roman", Times, serif;
   }
 }
 @media(max-width: 480px) {
   html {
-      font-size: 12px !important;
-      width: 90% !important;
-  color: #f6ee31;
-  font-family: "Times New Roman", Times, serif;
+    font-size: 12px !important;
+    width: 90% !important;
+    color: #f6ee31;
+    font-family: "Times New Roman", Times, serif;
   }
 }
 @media(max-width: 320px) {
   html {
-      font-size: 12px !important;
-      width: 100% !important;
-  color: #f6ee31;
-  font-family: "Times New Roman", Times, serif;
+    font-size: 12px !important;
+    width: 100% !important;
+    color: #f6ee31;
+    font-family: "Times New Roman", Times, serif;
   }
 }
 .scrollit {
   overflow:scroll;
   height:800px;
 }
-img.resize {
-width:200px;
+img {
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
+.headerImg {
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+h1 {
+  font-size: 20px;
+  font-size: 8vw;
+  text-align: center;
+}
+p {
+  font-size: 16px;
+  font-size: 4vw;
+  text-align: center;
+}
+
