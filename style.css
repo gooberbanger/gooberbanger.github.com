@@ -16,10 +16,7 @@ body {
   color: #f6ee31;
   font-family: "Actor", Times, serif;
 }
-a:link:hover {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+a {
   text-decoration: underline;
   cursor: pointer;
   cursor: hand;
