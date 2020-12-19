@@ -11,7 +11,7 @@ html {
 }
 body {
   min-height: 90%;
-  line-height: 1.75;
+  line-height: 1;
   background-color: #5920de;
   color: #f6ee31;
   font-family: "Actor", Times, serif;
@@ -88,4 +88,12 @@ a {
   font-size: 16px;
   font-size: 4vw;
   text-align: center;
+}
+video {
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 5%;
 }
