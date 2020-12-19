@@ -5,8 +5,8 @@ html {
   margin: 0 auto;
   background-color: #000000;
   color: #f6ee31;
-  font-family: "Courier New", Times, serif;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif");
+  font-family: "Actor", Times, serif;
+  background-image: url("https://i.pinimg.com/originals/0d/5e/8d/0d5e8d37dab34ed79623c5f693849719.gif");
   background-repeat: repeat;
 }
 body {
@@ -14,7 +14,7 @@ body {
   line-height: 1.75;
   background-color: #5920de;
   color: #f6ee31;
-  font-family: "Courier New", Times, serif;
+  font-family: "Actor", Times, serif;
 }
 a:link:hover {
   -webkit-transition: all 0.3s ease;
